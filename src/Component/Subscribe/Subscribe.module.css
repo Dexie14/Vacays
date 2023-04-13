@@ -1,0 +1,65 @@
+.subscribe {
+  background-image: url(../../assets/subscribe.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0 1.5rem;
+}
+
+.explore {
+  width: 45%;
+  margin: 0rem auto;
+  background-color: white;
+  border-radius: 35px;
+  padding: 3rem 1rem 4rem;
+}
+.explore input {
+  background: rgba(103, 100, 249, 0.12);
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  width: 100%;
+  padding: 1.1rem 0.9rem;
+  margin: 2rem 0;
+}
+
+.explore input::placeholder {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.47);
+}
+
+.explore h5 {
+  text-align: center;
+  width:65%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.explore button{ 
+background: #6764F9;
+border-radius: 10px;
+width: 100%;
+justify-content: center;
+display: flex;
+border: 1px solid #6764F9;
+padding: 1.1rem 0;
+color: white;
+margin: 1.5rem 0;
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+
+
+/* responsive screen */
+
+@media (max-width: 800px) {
+    .explore h5 {
+        width:80%;
+        font-size: 0.9rem;
+      }
+      .explore {
+        width: 65%;
+      }
+  }

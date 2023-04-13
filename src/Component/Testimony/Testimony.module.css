@@ -1,0 +1,110 @@
+.testify {
+  background-color: #faf7f1;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.circleq{
+    position: absolute;
+    width: 7%;
+    top: -8%;
+left: 0%;
+z-index: 2;
+}
+
+.circle2{
+    position: absolute;
+    width: 6%;
+    bottom:-6%;
+right: 0%;
+z-index: 2;
+}
+
+
+
+.testify h4 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #6764f9;
+  text-align: center;
+  font-style: normal;
+}
+
+.test {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1.2rem 0;
+  border-radius: 10px;
+  width: 95%;
+  height: 350px;
+}
+.test img{
+    margin: 0 auto;
+}
+.test h5 {
+  margin: 0.5rem 0;
+}
+.test p:last-child {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 23px;
+}
+
+.testcards{
+    width: 80%;
+    margin: 4rem auto;
+    justify-content: space-between;
+}
+
+.clients{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 1.5rem 0;
+}
+
+/* .left{
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 40%;
+} */
+
+
+/* responsive screen */
+
+@media (max-width: 700px) {
+    .circleq{
+        position: absolute;
+        width: 10%;
+        top: -5%;
+    left: 0%;
+    z-index: 2;
+    }
+    
+    .circle2{
+        position: absolute;
+        width: 10%;
+        bottom:-2%;
+    right: 0%;
+    z-index: 2;
+    }
+  }
+@media (max-width: 500px) {
+    .testcards{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .test {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+      }
+  }

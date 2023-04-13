@@ -1,0 +1,230 @@
+.hero {
+  background-image: url(../../assets/hero_section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.herosection {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  padding: 10rem 0;
+  width: 50%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.hero h2 span {
+  color: #e8a701;
+}
+
+.booking {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  background: #eae9f9;
+  border-radius: 28px;
+  margin-top: -5rem;
+}
+
+.book {
+  width: 93%;
+  margin: 0 auto;
+}
+.number {
+  display: flex;
+  justify-content: flex-end;
+}
+.booking select {
+  background-color: transparent;
+  color: #6764f9;
+  border: 1px solid transparent;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.data {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.venue {
+  background: #ffffff;
+  border: 1px solid #6764f9;
+  border-radius: 10px;
+  padding: 0.7rem;
+  display: flex;
+  /* height: 64px; */
+  width: 50%;
+}
+.venue select {
+  margin-left: 5px;
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid transparent;
+  outline: none;
+  appearance: none;
+  font-weight: 400;
+  color: #000000;
+}
+
+.Check {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkin {
+  background: #ffffff;
+  border: 1px solid #6764f9;
+  border-radius: 10px;
+  width: 45%;
+  padding: 0.3rem;
+  display: flex;
+  /* height: 64px; */
+  flex-direction: column;
+}
+
+.checkin p {
+  font-size: 0.7rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+}
+.picker input{
+  width: 80%;
+  margin-left: 10px;
+}
+.calendar select {
+  appearance: none;
+  margin-left: 10px;
+  color: #000000;
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.bookbutton button {
+  background: #6764f9;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  width: 15%;
+  margin: 0 auto;
+  font-weight: 700;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6764f9;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+
+  .modal {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    margin: auto auto;
+    text-align: center;
+    padding-bottom: 3rem 1.5rem;
+    border-radius: 10px;
+  }
+
+  .modal button{
+    padding: 0.5rem;
+    background-color: #6764f9;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .modal h5{
+    font-size: 1.4rem;
+    margin: 1rem 0;
+  }
+  .modal p{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #0000;
+    backdrop-filter: blur(0.6px);
+    z-index: 5;
+  }
+  
+
+/* responsive screen */
+
+@media (max-width: 1050px) {
+  .hero h2 {
+    width: 85%;
+  }
+}
+@media (max-width: 870px) {
+  .booking {
+    width: 85%;
+  }
+}
+
+@media (max-width: 780px) {
+  .data {
+    display: flex;
+    flex-direction: column;
+  }
+  .venue {
+    width: 95%;
+    margin: 0.5rem auto;
+  }
+  .Check {
+    width: 95%;
+    margin: 0.5rem auto;
+  }
+  .booking {
+    margin-top: -7rem;
+    width: 92%;
+  }
+  .bookbutton button {
+    width: 25%;
+  }
+  .checkin p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .hero h2 {
+    width: 85%;
+    font-size: 2rem;
+    padding: 3rem 0rem 10rem 0;
+  }
+}

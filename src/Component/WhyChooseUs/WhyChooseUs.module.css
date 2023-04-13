@@ -1,0 +1,52 @@
+.why {
+  background-image: url(../../assets/whychooseus.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0 1.5rem 0;
+  position: relative;
+  z-index: 6;
+}
+.why h3 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #e8a701;
+}
+
+.whycard {
+  background-color: #ffffff;
+  padding: 1rem;
+  width: 90%;
+  margin: 1.2rem auto;
+  border-radius: 5px;
+}
+
+.whycard h4{
+  font-size: 1.4rem;
+}
+
+.whycard p{
+    margin: 1.2rem 0;
+    width: 93%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.whycard span {
+  color: #6764f9;
+  margin-right: 15px;
+}
+
+
+/* responsive screen */
+
+@media (max-width: 500px) {
+    .whycard h4{
+        font-size: 1.1rem;
+      }
+      .whycard p{
+        font-size: 0.7rem;
+    }
+  }
