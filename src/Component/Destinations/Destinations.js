@@ -6,7 +6,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Destinations = () => {
   return (
-    <div className={classes.destination}>
+    <div className={classes.destination} id="Destinations">
         <h3>Popular Destinations</h3>
         <p>See the beauty of the world easily with Vacay<span>s.</span></p>
 

@@ -6,7 +6,7 @@ import tweet from "../../assets/twitter.svg"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
 
     <main>
       <div className={classes.flex}>

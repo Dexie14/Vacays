@@ -5,6 +5,7 @@ import { useState } from "react";
 import Vacays from "../../assets/VACAYs..svg";
 import menu from "../../assets/menu.svg";
 import close from "../../assets/close.svg";
+import { Link } from 'react-scroll'
 
 const Header = () => {
 
@@ -49,21 +50,24 @@ const Header = () => {
                 className={(navData) =>
                     navData.isActive ? `${classes.active}` : `${classes.navItems}`
                   }>
-                    Destinations
+                    
+                    <Link to = "Destinations"> Destinations   </Link>
+                </NavLink>
+                <NavLink
+                to="/"
+                className={(navData) =>
+                  navData.isActive ? `${classes.active}` : `${classes.navItems}`
+                }>
+                    <Link to = "footer"> About   </Link>
+                     
                 </NavLink>
                 <NavLink
                 to="/"
                 className={(navData) =>
                     navData.isActive ? `${classes.active}` : `${classes.navItems}`
                   }>
-                    About
-                </NavLink>
-                <NavLink
-                to="/"
-                className={(navData) =>
-                    navData.isActive ? `${classes.active}` : `${classes.navItems}`
-                  }>
-                    Contact
+                    <Link to = "footer"> Contact   </Link>
+                    
                 </NavLink>
             </nav>
             <div className={classes.register} >
